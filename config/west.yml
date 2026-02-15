@@ -10,5 +10,9 @@ manifest:
     - name: zmk
       remote: zmkfirmware
       import: app/west.yml
+    - name: ''
+      url: https://github.com/beekeeb/zmk-keyboard-toucan/
+      revision: main
+      path: modules/
   self:
     path: config
